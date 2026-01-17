@@ -48,20 +48,21 @@ body {
   background-color: #000;
 }
 
-/* Ikonkalar uchun rasmli uslub */
-.nav-img-icon {
-  width: 26px; /* Ikonka kattaligi */
-  height: 26px;
-  cursor: pointer;
-  object-fit: contain;
-}
-
 .nav-icons {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 25px; 
 }
 
+/* Ikonkalarning umumiy ko'rinishi */
+.nav-icons > i, 
+.wishlist-icon i {
+  font-size: 22px;
+  cursor: pointer;
+  color: #000;
+}
+
+/* Qidiruv paneli */
 .search-box {
   background: #F5F5F5;
   padding: 7px 12px 7px 20px;
@@ -79,7 +80,7 @@ body {
   width: 180px;
 }
 
-/* Qizil badge joylashuvi */
+/* Qizil badge (4 raqami) */
 .wishlist-icon {
   position: relative;
   display: flex;
@@ -88,20 +89,19 @@ body {
 
 .wishlist-icon .badge {
   position: absolute;
-  top: -6px;
-  right: -6px;
-  background-color: #DB4444;
+  top: -5px;
+  right: -8px;
+  background-color: #DB4444; 
   color: white;
   font-size: 10px;
+  font-weight: bold;
   width: 16px;
   height: 16px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: bold;
 }
-
 .divider {
   border: none;
   border-top: 0.5px solid #b3b3b3;
