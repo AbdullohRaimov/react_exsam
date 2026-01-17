@@ -1,4 +1,5 @@
 import React from "react";
+// Rasmlar importi
 import img1 from "../assets/1.png";
 import img2 from "../assets/2.png";
 import img3 from "../assets/3.png";
@@ -12,8 +13,6 @@ import img11 from "../assets/11.png";
 import img12 from "../assets/12.png";
 import img13 from "../assets/13.png";
 import img14 from "../assets/14.png";
-
-
 
 import "./Shop.css";
 
@@ -35,7 +34,7 @@ function Shop() {
       title: "RGB liquid CPU Cooler",
       price: 1960,
       rate: 4,
-      reviews: 34,
+      reviews: 65,
     },
     {
       id: 3,
@@ -43,7 +42,7 @@ function Shop() {
       title: "GP11 Shooter USB Gamepad",
       price: 550,
       rate: 4,
-      reviews: 25,
+      reviews: 65,
     },
     {
       id: 4,
@@ -51,7 +50,7 @@ function Shop() {
       title: "Quilted Satin Jacket",
       price: 750,
       rate: 5,
-      reviews: 8,
+      reviews: 65,
     },
     {
       id: 5,
@@ -61,7 +60,7 @@ function Shop() {
       oldPrice: 1160,
       sale: "-35%",
       rate: 5,
-      reviews: 32,
+      reviews: 65,
     },
     {
       id: 6,
@@ -69,7 +68,7 @@ function Shop() {
       title: "IPS LCD Gaming Monitor",
       price: 1160,
       rate: 5,
-      reviews: 12,
+      reviews: 65,
     },
     {
       id: 7,
@@ -77,7 +76,7 @@ function Shop() {
       title: "HAVIT HV-G92 Gamepad",
       price: 560,
       rate: 5,
-      reviews: 612,
+      reviews: 65,
     },
     {
       id: 8,
@@ -85,7 +84,7 @@ function Shop() {
       title: "AK-900 Wired Keyboard",
       price: 200,
       rate: 5,
-      reviews: 85,
+      reviews: 65,
     },
     {
       id: 9,
@@ -98,7 +97,7 @@ function Shop() {
     {
       id: 10,
       img: img11,
-      title: "ASUS FHD Gaming Laptop",
+      title: "ASUS FHD Gaming Laptop Professional",
       price: 700,
       rate: 5,
       reviews: 325,
@@ -117,7 +116,7 @@ function Shop() {
       title: "Kids Electric Car",
       price: 960,
       rate: 5,
-      reviews: 75,
+      reviews: 65,
     },
     {
       id: 13,
@@ -125,23 +124,7 @@ function Shop() {
       title: "Jr. Zoom Soccer Cleats",
       price: 1160,
       rate: 5,
-      reviews: 45,
-    },
-    {
-      id: 2,
-      img: img2,
-      title: "RGB liquid CPU Cooler",
-      price: 1960,
-      rate: 4,
-      reviews: 34,
-    },
-    {
-      id: 3,
-      img: img3,
-      title: "GP11 Shooter USB Gamepad",
-      price: 550,
-      rate: 4,
-      reviews: 25,
+      reviews: 35,
     },
     {
       id: 5,
@@ -151,33 +134,7 @@ function Shop() {
       oldPrice: 1160,
       sale: "-35%",
       rate: 5,
-      reviews: 32,
-    },
-    {
-      id: 3,
-      img: img3,
-      title: "GP11 Shooter USB Gamepad",
-      price: 550,
-      rate: 4,
-      reviews: 25,
-    },
-    {
-      id: 4,
-      img: img4,
-      title: "Quilted Satin Jacket",
-      price: 750,
-      rate: 5,
-      reviews: 8,
-    },
-    {
-      id: 5,
-      img: img5,
-      title: "ASUS FHD Gaming Laptop",
-      price: 960,
-      oldPrice: 1160,
-      sale: "-35%",
-      rate: 5,
-      reviews: 32,
+      reviews: 65,
     },
     {
       id: 6,
@@ -185,7 +142,7 @@ function Shop() {
       title: "IPS LCD Gaming Monitor",
       price: 1160,
       rate: 5,
-      reviews: 12,
+      reviews: 65,
     },
     {
       id: 7,
@@ -193,7 +150,7 @@ function Shop() {
       title: "HAVIT HV-G92 Gamepad",
       price: 560,
       rate: 5,
-      reviews: 612,
+      reviews: 65,
     },
     {
       id: 8,
@@ -201,7 +158,7 @@ function Shop() {
       title: "AK-900 Wired Keyboard",
       price: 200,
       rate: 5,
-      reviews: 85,
+      reviews: 65,
     },
     {
       id: 9,
@@ -212,44 +169,54 @@ function Shop() {
       reviews: 95,
     },
     {
-      id: 10,
-      img: img11,
+      id: 5,
+      img: img5,
       title: "ASUS FHD Gaming Laptop",
-      price: 700,
-      rate: 5,
-      reviews: 325,
-    },
-    {
-      id: 11,
-      img: img12,
-      title: "Curology Product Set",
-      price: 500,
-      rate: 4,
-      reviews: 145,
-    },
-    {
-      id: 12,
-      img: img13,
-      title: "Kids Electric Car",
       price: 960,
+      oldPrice: 1160,
+      sale: "-35%",
       rate: 5,
-      reviews: 75,
+      reviews: 65,
     },
     {
-      id: 13,
-      img: img14,
-      title: "Jr. Zoom Soccer Cleats",
+      id: 6,
+      img: img6,
+      title: "IPS LCD Gaming Monitor",
       price: 1160,
       rate: 5,
-      reviews: 45,
+      reviews: 65,
     },
     {
-      id: 2,
-      img: img2,
-      title: "RGB liquid CPU Cooler",
-      price: 1960,
-      rate: 4,
-      reviews: 34,
+      id: 7,
+      img: img7,
+      title: "HAVIT HV-G92 Gamepad",
+      price: 560,
+      rate: 5,
+      reviews: 65,
+    },
+    {
+      id: 8,
+      img: img8,
+      title: "AK-900 Wired Keyboard",
+      price: 200,
+      rate: 5,
+      reviews: 65,
+    },
+    {
+      id: 9,
+      img: img10,
+      title: "CANON EOS DSLR Camera",
+      price: 360,
+      rate: 5,
+      reviews: 95,
+    },
+    {
+      id: 8,
+      img: img8,
+      title: "AK-900 Wired Keyboard",
+      price: 200,
+      rate: 5,
+      reviews: 65,
     },
   ];
 
@@ -270,12 +237,10 @@ function Shop() {
             <input type="text" placeholder="What are you looking for?" />
             <i className="fa-solid fa-magnifying-glass"></i>
           </div>
-
           <div className="wishlist-icon">
             <i className="fa-regular fa-heart"></i>
             <span className="badge">4</span>
           </div>
-
           <i className="fa-solid fa-cart-shopping"></i>
           <i className="fa-regular fa-user"></i>
         </div>
@@ -294,7 +259,9 @@ function Shop() {
             <div className="image-wrapper">
               {item.sale && <span className="discount-badge">{item.sale}</span>}
               <img src={item.img} alt={item.title} />
-              <button className="add-to-cart-btn">Add To Cart</button>
+              <button className="add-to-cart-btn">
+                <i className="fa-solid fa-cart-shopping"></i> Add To Cart
+              </button>
             </div>
             <div className="product-info">
               <h4>{item.title}</h4>
